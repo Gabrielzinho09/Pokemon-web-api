@@ -1,0 +1,40 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Entornos virtuales
+env/
+.venv/
+venv/
+ENV/
+
+# Archivos de base de datos
+db.sqlite3
+
+# Archivos de configuración/local
+.env
+*.log
+
+# Archivos de Django
+staticfiles/
+media/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Migraciones compiladas
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/[0-9][0-9][0-9][0-9]_*.py
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Cache y otras carpetas temporales
+.mypy_cache/
+.pytest_cache/
+*.cover
