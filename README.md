@@ -8,6 +8,7 @@
 	✅ Usar Django 
 	✅ Obtener todos los Pokemon de la API
 	✅ Mostrar una lista paginada con nombre, sprite, número de habilidades 
+ 	✅ Buscar un pókemon único
 	✅ Mostrar perfil completo de cada Pokemon al hacer clic  
 
 
