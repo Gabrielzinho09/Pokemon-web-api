@@ -6,10 +6,10 @@
 	Requisitos del challenge
 
 	✅ Usar Django 
-	✅ Obtener todos los Pokemon de la API
-	✅ Mostrar una lista paginada con nombre, sprite, número de habilidades 
- 	✅ Buscar un pókemon único
-	✅ Mostrar perfil completo de cada Pokemon al hacer clic  
+	✅ Obtener todos los Pokemon de la API : [Lista de Pokémon](screenshots/list_pokemons.png)
+	✅ Mostrar una lista paginada con nombre, sprite, número de habilidades : [paginado](screenshots/paginate.png)
+ 	✅ Buscar un pókemon único : [busqueda](screenshots/search.png)
+	✅ Mostrar perfil completo de cada Pokemon al hacer clic   : [perfil](screenshots/detail_pokemon.png)
 
 
  	Pokedex Web API - Proyecto para obtener datos pokemons de la API pública(https://pokeapi.co/).
