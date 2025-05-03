@@ -43,7 +43,23 @@
 	BACKEND
 
 	pokemon_app = Configuración general del proyecto Django
-	
+ 
+ 	/---------------------------------------- Configuracion de settings.py --------------------------------------------------------/
+  
+ 	settings.py = INSTALLED_APPS = [	'corsheaders', //uso de cors para frontend
+    					'rest_framework', //framework Django
+    					'pokedex'	] // nombre de App
+	 	     CACHES = {
+    					'default': { // uso de memoria cache consulta paralela de pokemons
+        				'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        				'LOCATION': 'pokemon-cache',
+    							}
+							}	
+	 	     MIDDLEWARE = [
+    					'corsheaders.middleware.CorsMiddleware'	 ] //conf de cors
+	 	     CORS_ALLOW_ALL_ORIGINS = True //habilitar true 
+	/-------------------------------------------------------------------------------------------------------------------------------/
+ 
 	pokedex     = lógica del proyecto
 	admin.py
 	apps.py
